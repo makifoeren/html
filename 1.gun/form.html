@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form calismam</title>
+  </head>
+  <body>
+    <form action="register.js">
+      <p><label for="ad">Adiniz : </label> <input type="text" id="ad" /></p>
+      <p>
+        <label for="ad">Soyadiniz : </label> <input type="text" id="soyad" />
+      </p>
+      <p><label for="yas">Yasiniz :</label> <input type="number" id="yas" /></p>
+      <p>
+        <label for="sifre">Sifre :</label> <input type="password" id="sifre" />
+      </p>
+      <p><label for="mail">Email :</label> <input type="Email" id="mail" /></p>
+      <p>
+        <label for="onay">Onayliyorum :</label>
+        <input type="checkbox" id="onay" />
+      </p>
+      <p>
+        <label for="cinsiyet">Kadin</label>
+        <input type="radio" name="cns" id="cinsiyet" />
+        <label for="cinsiyet">Erkek</label>
+        <input type="radio" name="cns" id="cinsiyet" />
+      </p>
+      <p>
+        <label for="dosya">Dosya Yukle</label>
+        <input type="file" name="dosya" id="dosya" />
+      </p>
+      <select name="Iller">
+        <option value="01">Adana</option>
+        <option value="02">Agri</option>
+        <option value="56">Siirt</option>
+      </select>
+
+      <p>
+        <label for="adres">Adres:</label>
+        <textarea name="" id="adres" cols="30" rows="10"></textarea>
+      </p>
+      <p><input type="button" value="Kaydet" /></p>
+      <input type="submit" value="Gonderme" />
+      <input type="reset" value="Temizle" />
+    </form>
+  </body>
+</html>
