@@ -1,0 +1,24 @@
+header,footer{
+    display: flex;
+   
+}
+header{
+    justify-content: space-between;
+}
+a{
+text-decoration: none;
+color: black;
+}
+
+.anasayfa{
+    background-color: bisque;
+}
+.urunler{
+    background-color: cadetblue;
+}
+.oneriler{
+    background-color: aqua;
+}
+.hakkimizda{
+    background-color: coral;
+}

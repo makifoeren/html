@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.js">
+      <p><label for="Name">Name :</label><input type="text" id="Name" /></p>
+      <p>
+        <label for="Vorname">Vorname :</label><input type="text" id="Vorname" />
+      </p>
+      <p>
+        <label for="Alter">Alter : </label><input type="number" id="Alter" />
+      </p>
+      <p>
+        <label for="Passwort">Passwort :</label
+        ><input type="password" id="pass" />
+      </p>
+      <p><label for="Email">Email :</label><input type="Email" id="mail" /></p>
+      <p>
+        <label for="Bestätidung">Bestätidung :</label
+        ><input type="checkbox" id="chek" />
+      </p>
+      <p>
+        <label for="Geschlecht">Weiblich :</label
+        ><input type="radio" name="cns" id="gsc" />
+        <label for="Geschlecht">Männlich :</label
+        ><input type="radio" name="cns" id="gsc" />
+      </p>
+      <p>
+        <label for="Dateien">Hochladen Dateien</label>
+        <input type="file" name="date" id="date" />
+      </p>
+
+      <select name="Stadt" id="stadt">
+        <option value="96">Hannover</option>
+        <option value="99">Hamburg</option>
+        <option value="07">Stutgart</option>
+      </select>
+
+      <p>
+        <label for="adress">Adresse :</label>
+        <textarea name="" id="adresse" cols="30" rows="5"></textarea>
+      </p>
+      <p></p>
+      <p>
+        <input type="button" value="Speichern" />
+        <input type="submit" value="Senden" />
+        <input type="reset" value="Löschen" />
+      </p>
+    </form>
+  </body>
+</html>
